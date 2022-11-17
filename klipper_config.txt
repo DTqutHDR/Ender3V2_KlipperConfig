@@ -105,6 +105,12 @@ x_offset: -36
 y_offset: 0
 z_offset: 2.00
 
+[safe_z_home]
+home_xy_position: 151,115   # Nozzle coordinates
+speed: 250
+z_hop: 10
+z_hop_speed: 5
+
 [heater_fan heatbreak_cooling_fan]
 pin: PC7
 
